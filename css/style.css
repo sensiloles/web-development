@@ -99,3 +99,60 @@ ul, li {
     font-family: 'Open Sans Semibold';
     font-size: 20px;
 }
+
+/*Our Services*/
+.services {
+    background-color: #e4fdf9;
+    padding-top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    color: black;
+}
+
+.our-card {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 50px 50px;
+    transition: 0.3s;
+}
+
+.our-card > p {
+    margin-bottom: 45px;
+}
+
+.our-card:hover {
+    background-color: #00897b;
+    color: white;
+    -webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.25);
+    box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.25);
+}
+
+.our-card:hover .icon {
+    color: white;
+    transition: 0.3s;
+}
+
+.our-card:hover .button-services {
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.icon {
+    font-size: 60px;
+    color: black;
+}
+
+.button-services {
+    text-transform: uppercase;
+    border: 2px solid black;
+    background: transparent;
+    padding: 14px 12px 14px;
+    font-family: 'Open Sans Semibold';
+}
+
+.button-services:hover {
+    cursor: pointer;
+}
+
