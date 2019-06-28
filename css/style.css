@@ -32,13 +32,17 @@ ul, li {
 }
 
 /*Header*/
+.header {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: 0 100%;
+}
+
 .header > div {
     color: white;
     text-align: center;
     padding: 180px 0;
-    background-size: cover;
-    background-position: 0 100%;
-    background-image: url(../img/header.png);
+    
 }
 
 .header__title {
@@ -51,20 +55,19 @@ ul, li {
 }
 
 .button {
-    padding: 25px 45px;
-    margin: 0 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #00897b;
+    border: 2px solid #00897b;
+    padding: 12px 30px;
+    margin: 0px 10px;
     color: white;
     transition: 0.3s;
 }
 
-.button_empty {
+.button:hover {
     background: transparent;
     border: 2px solid white;
-}
-
-.button_full {
-    background-color: #00897b;
-    border: 2px solid #00897b;
 }
 
 .button_empty:hover,
@@ -156,3 +159,52 @@ ul, li {
     cursor: pointer;
 }
 
+/*Portfolio*/
+.portfolio {
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 135px;
+}
+
+.portfolio button {
+    background: transparent;
+    color: black;
+}
+
+.portfolio button:hover {
+    background-color: #00897b;
+    color: white;
+}
+
+.portfolio button[val=on] {
+    background-color: #00897b;
+    color: white;
+}
+
+.portfolio img {
+    margin-bottom: 30px;
+}
+
+.filter {
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+
+.text {
+    display: none;
+}
+
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+}
