@@ -295,3 +295,160 @@ div[filter]:hover .text {
     border: 2px solid #00897b;
     color: white;
 }
+
+/*Our team*/
+.team {
+    padding: 120px 0px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+}
+
+.member-card {
+    color: #212121;
+    font-family: 'Open Sans Semibold';
+}
+
+.member-card h4 {
+    font-size: 20px;
+    padding-top: 38px;
+}
+
+.member-card p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.member-card img {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a i {
+    transition: 0.3s;
+}
+
+.icons i:nth-child(1) {
+    color: #f0f1f1;
+}
+
+.icons i:nth-child(2) {
+    color: #00897b;
+}
+
+.icons a:hover i:nth-child(1) {
+    color: #3949ab;
+}
+
+.icons a:hover i:nth-child(2) {
+    color: #fff;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.dots-style {
+    margin: 125px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-style button {
+    background-color: #00897b;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    outline: none;
+}
+
+.dots-style li[class="slick-active"] button {
+    background-color: #3949ab;
+}
+
+/*Blog*/
+.left > div:first-child {
+    order: 1;
+}
+
+.left > div:last-child {
+    order: 2;
+}
+
+.right > div:first-child {
+    order: 2;
+}
+
+.right > div:last-child {
+    order: 1;
+}
+
+.blog {
+    color: #212121;
+    text-align: left;
+}
+
+.left .blog {
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.right .blog {
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.left, .right {
+    margin: 0px -40px;
+}
+
+.blog a {
+    color: #212121;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans Semibold';
+}
+
+.blog a:hover {
+    color: #00897b;
+}
+
+.props {
+    margin: 28px 0px;
+}
+
+.props i {
+    margin-right: 10px;
+}
+
+.blog span {
+    padding-right: 40px;
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+}
+
+.blog p {
+    font-size: 15px;
+    font-family: 'Open Sans Regular';
+}
+
+.button_blog {
+    margin-top: 125px;
+    width: 220px;
+    height: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #00897b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

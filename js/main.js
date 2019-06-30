@@ -20,4 +20,13 @@ $(document).ready(function () {
       }
     });
   }
+
+  $('.carousel').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    infinite: false,
+    arrows: false,
+    dots: true,
+    dotsClass: 'dots-style'
+  });
 });
