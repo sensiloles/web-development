@@ -40,12 +40,9 @@ button:focus {
   background-image: url(../img/header.png);
   background-size: cover;
   background-position: 0 100%;
-}
-
-.header>div {
   color: white;
   text-align: center;
-  padding: 180px 0;
+  padding: 180px 0
 }
 
 .header__title {
@@ -587,8 +584,8 @@ div[filter]:hover .text {
 }
 
 @media screen and (max-width: 480px) {
-  .header>div {
-    padding: 20px 0;
+  .header {
+    padding: 20px 0
   }
   .header__title {
     font-size: 45px;
