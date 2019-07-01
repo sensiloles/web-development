@@ -41,16 +41,7 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: false,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 480,
+        breakpoint: 770,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
